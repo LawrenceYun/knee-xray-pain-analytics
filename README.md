@@ -138,6 +138,15 @@ In the residual analysis, Black participants showed lower reported pain scores r
 - Seaborn
 - Jupyter Notebook / Google Colab
 
+## How to Run
+pip install -r requirements.txt
+1. Place authorized OAI data files in the data/ directory.
+2. Run the data preparation notebook or script.
+3. Train structural-only and structural-demographic XGBoost models.
+4. Generate SHAP feature attribution plots.
+5. Run SANE sufficiency/necessity analysis.
+6. Evaluate residual fairness gaps across racial groups.
+
 ## Project Structure
 
 ```text
